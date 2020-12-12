@@ -1,0 +1,106 @@
+
+#img-div{
+    background-image: url("chalkboard.png");
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family: 'Walter Turncoat', cursive;
+    color: rgb(247, 242, 242);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: flex-end;
+}
+#image{
+   /* 
+    position: relative;
+    margin-left: 50%;
+    margin-right: 50%;*/
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+}
+footer{
+    background-image: url("chalkboard.png");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 15vh;
+    font-family: 'Walter Turncoat', cursive;
+    color: rgb(247, 242, 242);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    color: rgb(247, 242, 242);
+    display: flex;
+}
+#author{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+#wiki{
+    width: 25px;
+}
+#britannica{
+    width: 20px;
+    height: 20px;
+}
+.nav{
+    display: inline-flex;
+    flex-direction:column;
+    font-size: 20px;
+    position: absolute;
+    left:3px;
+    top:3px;
+}
+#teach{
+    border:2px;
+    margin: 5px;
+}
+#cont{
+    border:2px;
+    margin: 5px;
+}
+#tribute-info{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media all and (max-width:500px){
+    
+    h1{
+        text-align: center;
+        font-family: 'Walter Turncoat', cursive;
+        color:pink;
+    }
+    #tribute-info{
+        text-align: center;
+        font-family: 'Walter Turncoat', cursive;
+        color:fuchsia;
+    }
+    footer{
+        align-items: center;
+        justify-content: center;
+    }
+    #author{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top:10px;
+    }
+    #image{
+        height: 100px;
+        width: 100px;
+    }
+
+
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+
+#header-img {
+    height: 5vw;
+    width: 8vw;
+}
+
+#nav-link li {
+    list-style-type: none;
+    color: wheat;
+    margin-right: 20px;
+    padding: 90px, 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.Description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#appleWatches {
+    height: 40vw;
+    width: 50vw;
+}
+
+.desc {
+    margin-left: 60px;
+    font-family: 'Piazzolla', serif;
+}
+
+button {
+    background-color: black;
+    font-family: 'Piazzolla', serif;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    color: wheat;
+}
+
+.appleHead {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-family: 'Piazzolla', serif;
+}
+
+.features2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    display: block; 
+    text-align: center;
+}
+.Gallery img{
+    height: 300px;
+    min-width: 300px;
+    padding:10px;
+}
+.gallery1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 36.6vw;
+}
+footer{
+    background-color: black;
+    color:wheat;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

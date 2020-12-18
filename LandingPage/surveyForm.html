@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyForm.css">
+    <title>Survey Form</title>
+</head>
+<body>
+
+ <form action="" id="survey-form" method="GET">
+  <h1 id="title">Teacher's Survey Form</h1>
+  <p id="description">Please answer the teacher's survey form</p>
+  <hr>
+   <label for="name" id="name-label">Name:</label>
+   <input type="text" id="name" placeholder="Fullname" required> <br>
+   <label for="email" id="email-label">Email:</label>
+   <input type="email" id="email" placeholder="email" required><br>
+   <label for="techer name">Teacher Name</label>
+   <input type="text" name="teacher name" id=" teacherName" placeholder="Teacher Name" required> <br>
+   <label for="Number" id="number-label">Age:</label>
+   <input type="number" id="number" placeholder="Age"  max="2" required> <br>
+   <label for="Gender">Gender</label>
+   <select name="Gender" id="dropdown"> <br>
+   <option value="Male">Male</option>
+   <option value="Female">Female</option>
+   </select>
+   <hr>
+   <h3>My teacher check to make sure we understand what he/she teaching us</h3>
+   <input type="radio">
+   <label for="classroom">Not at all</label>
+   <input type="radio">
+   <label for="Classroom">Sometimes</label>
+   <input type="radio">
+   <label for="Classroom">Usually</label>
+   <input type="radio">
+   <label for="Classroom">Always</label>
+   <hr>
+   <h3>My teacher explains another way if you don't understand something</h3>
+   <input type="radio">
+   <label for="classroom">Not at all</label>
+   <input type="radio">
+   <label for="Classroom">Sometimes</label>
+   <input type="radio">
+   <label for="Classroom">Usually</label>
+   <input type="radio">
+   <label for="Classroom">Always</label>
+   <hr>
+   <h3>My teacher takes time to summarize what we learn each day</h3>
+   <input type="radio">
+   <label for="classroom">Not at all</label>
+   <input type="radio">
+   <label for="Classroom">Sometimes</label>
+   <input type="radio">
+   <label for="Classroom">Usually</label>
+   <input type="radio">
+   <label for="Classroom">Always</label>
+   <hr>
+   <h3>My teacher helps me when I need it or don’t understand something</h3>
+   <input type="radio">
+   <label for="classroom">Not at all</label>
+   <input type="radio">
+   <label for="Classroom">Sometimes</label>
+   <input type="radio">
+   <label for="Classroom">Usually</label>
+   <input type="radio">
+   <label for="Classroom">Always</label>
+   <hr>
+   <h6>Comments:</h6>
+   <textarea name="Comments" id="textArea" cols="30" rows="10"></textarea><br>
+   <input type="submit" value="submit" id="submit">
+   
+ </form>
+</body>
+</html>

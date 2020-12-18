@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculator.css">
-    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <title>Calc</title>
 </head>
+
 <body>
     <div class="calculator">
 
-        <input type="text" class="calculator-screen" value="" disabled />
-        
-        <div class="calculator-keys">
-          
-          <button type="button" class="operator" value="+">+</button>
-          <button type="button" class="operator" value="-">-</button>
-          <button type="button" class="operator" value="*">&times;</button>
-          <button type="button" class="operator" value="/">&divide;</button>
-          <button type="button" value="7">7</button>
-          <button type="button" value="8">8</button>
-          <button type="button" value="9">9</button>
-          <button type="button" value="4">4</button>
-          <button type="button" value="5">5</button>
-          <button type="button" value="6">6</button>
-          <button type="button" value="1">1</button>
-          <button type="button" value="2">2</button>
-          <button type="button" value="3">3</button>
-          <button type="button" value="0">0</button>
-          <button type="button" class="decimal" value=".">.</button>
-          <button type="button" class="all-clear" value="all-clear">AC</button>
-      
-          <button type="button" class="equal-sign operator" value="=">=</button>
-      
-        </div>
-      </div>
-      <script src="calculator.js"></script>
+    
+             <h5>Simple Calculator</h5>
+            
+            <input type="text" value="" id="display" disabled>
+            <!--<div class="operator">"
+         <button>+</button>
+         <button>-</button>
+         <button>*</button>
+         <button>/</button>
+        </div>-->
+        <button id="clear">C</button>
+            <span class="numbers">
+                  
+                <button>+</button>
+                <button>-</button>
+                <button>*</button>
+                <button>/</button>
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button id="decimal">.</button>
+                <button value="0">0</button>
+                
+            </span>
+           <button id="equals">=</button>
+    </div>
+    <script src="calc.js"></script>
 </body>
+
 </html>

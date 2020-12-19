@@ -16,4 +16,4 @@
 <br>
 [Calculator](Calculator/calculator.html "Calculator")
 <br>
-[BMI Calculator](BMI Calulator/index.html "BMI Calc")
+[BMI Calculator](BMI_Calulator/index.html "BMI Calc")

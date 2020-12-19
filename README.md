@@ -15,3 +15,5 @@
 [Survey-Form](LandingPage/surveyForm.html "Survey Form")
 <br>
 [Calculator](Calculator/calculator.html "Calculator")
+<br>
+[BMI Calculator](BMI Calulator/index.html "BMI Calc")
